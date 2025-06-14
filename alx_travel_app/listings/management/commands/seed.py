@@ -4,7 +4,7 @@ from django.utils import timezone
 from datetime import date, timedelta
 from decimal import Decimal
 import random
-from listings.models import Listing, Booking, Review
+from alx_travel_app.listings.models import Listing, Booking, Review
 
 
 class Command(BaseCommand):
